@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="logo">
+                <img src="data:image/png;base64,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" alt="Casio Logo">
+            </div>
+            <input type="checkbox" id="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div id="slider">
+            <div class="slides">
+                <div class="slide">
+                    <img src="https://mma.prnewswire.com/media/2213905/Swarovski.jpg?p=facebook">
+                </div>
+                <div class="slide">
+                    <img src="https://images.squarespace-cdn.com/content/v1/59c5260c6f4ca37f603b06b0/1509477666921-GIWRH0EXQXGIO8X5PDK0/RIPPLE_DPS_1208-01.jpg?format=1500w">
+                </div>
+                <div class="slide">
+                    <img src="https://asset.swarovski.com/videos/f_auto,q_auto,w_1280,h_720,c_fill/so_1/swa-cms/videos/2023_NYFLAG_KVID-TEASER-NOW-OPEN_HOR_30SEC_NOVO_VID_GL_25FPS_H264/CS.jpg">
+                </div>
+                <div class="slide">
+                    <img src="https://www.parkwayparade.com.sg/contentassets/817e54f43dd64652841e84093a069e4e/images/digital-ooh_1130x440.jpg?width=300&height=400&upscale=false&mode=max&quality=80">
+                </div>
+            </div>
+            <button class="prev" onclick="showPrevSlide()">&#10094;</button>
+            <button class="next" onclick="showNextSlide()">&#10095;</button>
+        </div>
+        <div class="hero-content">
+            <h1>Masters of Light Since 1895</h1>
+            <p>Since 1895, founder Daniel Swarovski’s passion for innovation and design, and mastery of crystal cutting has defined Swarovski as the leading jewelry and accessories brand.</p>
+        </div>
+    </section>
+    <section id="about">
+        <h2>WORLD OF SWAROVSKI</h2>
+        <p>Illuminating the many facets of Swarovski from heritage to lifestyle and beyond. </p>
+        <div class="about-content">
+            <br><h2>Our History</h2>
+            <p>Since 1895, founder Daniel Swarovski’s mastery of crystal cutting has defined the company. His enduring passion for innovation and design has made it the world’s premier jewelry and accessory brand. Today, the family carries on the tradition of delivering extraordinary everyday style to women around the world. </p>
+            <br><h2>Innovations</h2>
+            <p>Explore our new stores. In 2021, Creative Director Giovanna Engelbert's vision comes to life in our new store concept, with an explosive approach to color, size and styling. Come wonder in our imaginary world, where science and magic meet.</p>
+            <br><h2>Our Heritage</h2>
+            <p>For over 35 years, Swarovski has captivated the world with unique pieces like the Nirvana cocktail ring, the Slake bracelet and its signature Swiss movement watches. In 2008, the magical 'Crystal Forest' interior design was implemented in stores worldwide, welcoming shoppers to an architectural crystal wonderland.</p>
+        </div>
+    </section>
+    <section id="products">
+        <h2>Our Products</h2>
+    
+        <div class="product-grid">
+            <div class="product">
+                <video autoplay loop muted>
+                    <source src="https://asset.swarovski.com/videos/f_auto,q_auto,w_1920,h_1080,c_fill/ac_none/swa-cms/videos/02_SWAROVSKI_SS24_STARFISH_16_9_6s_VI/TT.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>Spring/Summer 2024</h3>
+                <p>Embrace the art of self expression.</p>
+            </div>
+            <div class="product">
+                <video autoplay loop muted>
+                    <source src="https://asset.swarovski.com/videos/f_auto,h_720,q_70/v1651733122/swa-cms/videos/SS22_BRAND_KVID-HOR-20SEC-NOVO_VID_GL_25FPS_H264/bc-ch1-and-2-kvid-cs-20s.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>Colors that honor the crystal</h3>
+                <p>Discover our bold looks and fresh ideas.</p>
+            </div>
+        </div>
+    
+        <div class="photo-grid">
+            <div class="photo">
+                <video autoplay loop muted>
+                    <source src="https://asset.swarovski.com/videos/f_auto,q_auto,w_1024,h_1365,c_fill/so_0,eo_13/swa-cms/videos/SWA_TEASER01_9-16/CM_port.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>Ocean-Inspired Jewelry</h3>
+                <p>Our new jewelry families are beautiful works of artistry that feature Swarovski Crystal Pearls, and a palette of blue and green Swarovski Crystals. </p>
+            </div>
+            <div class="photo">
+                <video autoplay loop muted>
+                    <source src="https://asset.swarovski.com/videos/f_auto,q_auto,w_1024,h_1365,c_fill/so_0,eo_4/swa-cms/videos/Swarovski_A007_1_1_1920p_H264_MASTER/CM_port.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>A Guide to Watch Styles</h3>
+                <p>The perfect blend of fashion and function, watches have the power to elevate any look. </p>
+            </div>
+            <div class="photo">
+                <video autoplay loop muted>
+                    <source src="https://asset.swarovski.com/videos/f_auto,q_auto,w_1024,h_1365,c_fill/swa-cms/videos/2024_COLLAB_VIDEO-ALICE-POR-6SEC_VID_GL_PRORES/CM_port.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>Disney’s Alice in Wonderland and friends</h3>
+                <p>This collection celebrates the irresistible spirit of Disney’s iconic characters, reimagining Alice in Wonderland and her friends with impeccable crystal savoir-faire.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out to us with any inquiries or feedback.</p>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <div class="footer-section">
+            <h3>CUSTOMER SERVICE</h3>
+            <ul>
+                <li><a href="#">Customer Service Overview</a></li>
+                <li><a href="#">Order Status</a></li>
+                <li><a href="#">Gift Card Balance</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Returns & Exchange</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Size Guide</a></li>
+                <li><a href="#">Store Finder</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>MEMBERSHIP</h3>
+            <ul>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Swarovski Club</a></li>
+                <li><a href="#">Crystal Society (SCS)</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>ABOUT US</h3>
+            <ul>
+                <li><a href="#">About Swarovski</a></li>
+                <li><a href="#">Sustainability</a></li>
+                <li><a href="#">Jobs & Career</a></li>
+                <li><a href="#">Alumni Community</a></li>
+                <li><a href="#">Corporate Gifts</a></li>
+                <li><a href="#">For Professionals</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Kristallwelten</a></li>
+                <li><a href="#">Swarovski Mobility</a></li>
+                <li><a href="#">Code of Conduct</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>LEGAL</h3>
+            <ul>
+                <li><a href="#">Terms Of Use</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookie Consent</a></li>
+                <li><a href="#">Imprint</a></li>
+                <li><a href="#">REACH information</a></li>
+                <li><a href="#">Data Protection Consent Statement</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
